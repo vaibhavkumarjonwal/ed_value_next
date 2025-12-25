@@ -1,5 +1,5 @@
 import './globals.css'
-import Providers from '@/src/providers/Providers'
+import Providers from '@/providers/Providers'
 
 export const metadata = {
   title: 'Harmony Living',
