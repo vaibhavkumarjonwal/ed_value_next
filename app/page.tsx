@@ -3,6 +3,21 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import Link from 'next/link'
 import { Shield, MapPin, Wallet, Wifi, Utensils, Clock, ArrowRight, Star, Phone } from 'lucide-react'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Best PG in Kudasan & Gandhinagar | Hostel Near TCS, DAIICT, GIFT City',
+  description: 'Best PG in Kudasan, Gandhinagar near TCS, DAIICT, GIFT City & Orbit Mall. Affordable student hostel with WiFi, meals, 24/7 security. Rooms for students & IT professionals. Call +91 9106161585!',
+  keywords: [
+    'PG in Kudasan', 'PG in Gandhinagar', 'hostel near TCS Gandhinagar', 'PG near DAIICT',
+    'hostel near GIFT City', 'student hostel Gandhinagar', 'rooms for rent Kudasan',
+    'affordable PG near Orbit Mall', 'TCS Gandhinagar PG', 'DAIICT student accommodation'
+  ],
+  openGraph: {
+    title: 'Harmony Living | Best PG Near TCS, DAIICT, GIFT City in Gandhinagar',
+    description: 'Best PG in Kudasan near TCS, DAIICT, GIFT City. Affordable rooms with modern amenities for students & professionals.',
+  },
+}
 
 const highlights = [
   { icon: Wallet, title: 'Affordable Rent', description: 'Budget-friendly pricing designed for students and working professionals' },

@@ -1,6 +1,21 @@
 import Layout from '@/components/Layout'
 import { Wifi, Shield, Zap, Sparkles, Utensils, Droplets, Car, BookOpen, Tv, WashingMachine, Wind, Users, Calendar } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Amenities | PG with WiFi, Food & AC Near TCS, DAIICT Gandhinagar',
+  description: 'Premium amenities at Harmony Living PG - Free high-speed WiFi, home-style meals, AC rooms, 24/7 security, power backup, study room. Perfect for TCS, DAIICT, GIFT City professionals & students.',
+  keywords: [
+    'PG with food Gandhinagar', 'PG with WiFi near TCS', 'AC PG near DAIICT',
+    'hostel amenities GIFT City', 'PG with meals Kudasan', 'high speed internet PG',
+    'secure PG Gandhinagar', 'PG with power backup'
+  ],
+  openGraph: {
+    title: 'Amenities | PG with WiFi, Food & AC in Kudasan',
+    description: 'Premium amenities - WiFi, meals, AC, 24/7 security. Perfect for IT professionals & students.',
+  },
+}
 
 const amenities = [
   { icon: Wifi, title: 'High-Speed Wi-Fi', description: 'Unlimited high-speed internet access throughout the premises. Perfect for online classes, work from home, and streaming.' },

@@ -1,6 +1,21 @@
 import Layout from '@/components/Layout'
 import { CheckCircle, Heart, Shield, Users } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Us | Best PG Near TCS, DAIICT, GIFT City Since 2021',
+  description: 'Harmony Living - Trusted PG in Kudasan serving TCS, DAIICT, GIFT City professionals since 2021. 200+ happy residents, 98% satisfaction. Best hostel for students & working professionals.',
+  keywords: [
+    'about Harmony Living', 'trusted PG near TCS', 'best hostel DAIICT',
+    'PG for GIFT City employees', 'student accommodation since 2021',
+    'safe PG Gandhinagar', 'Ed Value hostel'
+  ],
+  openGraph: {
+    title: 'About Harmony Living | Trusted PG Near TCS, DAIICT Since 2021',
+    description: 'Trusted PG serving TCS, DAIICT, GIFT City since 2021. 200+ happy residents.',
+  },
+}
 
 const values = [
   { icon: Heart, title: 'Comfort First', description: 'We prioritize your comfort and well-being in everything we do, from room design to daily services.' },

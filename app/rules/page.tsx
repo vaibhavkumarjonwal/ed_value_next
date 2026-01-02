@@ -1,6 +1,17 @@
 import Layout from '@/components/Layout'
 import { Clock, Users, Shield, AlertTriangle, CheckCircle, XCircle } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Rules & Policies | PG Guidelines in Kudasan, Gandhinagar',
+  description: 'House rules and policies at Harmony Living PG in Kudasan. Entry timings, visitor policy, security guidelines for a safe and harmonious hostel experience in Gandhinagar.',
+  keywords: ['PG rules Kudasan', 'hostel policies Gandhinagar', 'PG guidelines near Orbit Mall', 'student hostel rules'],
+  openGraph: {
+    title: 'Rules & Policies | Harmony Living PG Kudasan',
+    description: 'Our guidelines ensure a safe and harmonious living environment for all residents.',
+  },
+}
 
 const rules = [
   { icon: Clock, title: 'Entry Timings', items: ['Main gate closes at 11:00 PM on weekdays','Weekend curfew extended to 11:30 PM','Late entry requires prior permission from management','Night-out requests must be submitted 24 hours in advance','Emergency situations will be handled on a case-by-case basis'] },

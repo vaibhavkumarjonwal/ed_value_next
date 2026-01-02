@@ -4,6 +4,21 @@ import { Check, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Rooms & Pricing | PG Rooms Near TCS, DAIICT, GIFT City Gandhinagar',
+  description: 'Affordable PG rooms in Kudasan near TCS, DAIICT, GIFT City. Double, Triple & Four sharing rooms with WiFi, meals, AC. Best prices for students & IT professionals in Gandhinagar.',
+  keywords: [
+    'PG rooms Kudasan', 'room rent Gandhinagar', 'double sharing room near TCS',
+    'affordable rooms near DAIICT', 'student room GIFT City', 'furnished rooms Kudasan',
+    'PG room price Gandhinagar', 'monthly rent PG Kudasan'
+  ],
+  openGraph: {
+    title: 'Rooms & Pricing | PG Near TCS, DAIICT, GIFT City',
+    description: 'Affordable PG rooms in Kudasan near TCS, DAIICT. Double, Triple & Four sharing options.',
+  },
+}
 
 const rooms = [
   { name: 'Double Sharing', description: 'Shared accommodation for two residents in one room', image: '/images/2bednewnew.jpeg', popular: true, amenities: ['Room shared by 2 residents','Common attached bathroom','Two individual study desks','Two wardrobes / storage spaces','High-speed Wi-Fi','Daily housekeeping','Meals included (Optional)'] },
