@@ -129,20 +129,11 @@ export const metadata: Metadata = {
     siteName: 'Harmony Living - PG Near TCS, DAIICT, GIFT City',
     title: 'Harmony Living | Best PG Near TCS, DAIICT, GIFT City in Gandhinagar',
     description: 'Best PG in Kudasan near TCS, DAIICT, GIFT City & Orbit Mall. Affordable rooms with WiFi, meals, 24/7 security for students & IT professionals.',
-    images: [
-      {
-        url: '/images/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Harmony Living - Best PG Near TCS DAIICT GIFT City Gandhinagar',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Harmony Living | Best PG Near TCS, DAIICT, GIFT City Gandhinagar',
     description: 'Best PG in Kudasan near TCS, DAIICT, GIFT City. WiFi, meals & 24/7 security. Book now!',
-    images: ['/images/og-image.jpg'],
   },
   robots: {
     index: true,

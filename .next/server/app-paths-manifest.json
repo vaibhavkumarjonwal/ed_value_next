@@ -4,9 +4,11 @@
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/gallery/page": "app/gallery/page.js",
   "/about/page": "app/about/page.js",
-  "/amenities/page": "app/amenities/page.js",
-  "/rooms/page": "app/rooms/page.js",
   "/contact/page": "app/contact/page.js",
+  "/rooms/page": "app/rooms/page.js",
+  "/amenities/page": "app/amenities/page.js",
   "/rules/page": "app/rules/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/opengraph-image/route": "app/opengraph-image/route.js",
+  "/twitter-image/route": "app/twitter-image/route.js"
 }
